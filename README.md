@@ -11,6 +11,7 @@ No additional set up is required to view solution stored in Reader_Football_Stan
 To review the SQL solution from the PostgreSQL_Football_Standings.sql and Tableau solution from Desktop_Football_Standings.twbx (cannot be opened without referenced db, since has parametrized source for better performance), please proceed with the following steps:
 
 - open Docker container using the following command:
+
 docker run --rm --name postgres -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="toor" -e POSTGRES_DB="tableau" -p 5432:5432 postgres:9.6.17-alpine
 
 - log in to the created database with the credentials:
